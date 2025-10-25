@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects — Muhammad Zaid</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">Muhammad Zaid</a>
+
+    <nav class="nav" id="main-nav">
+      <ul class="nav-list" id="nav-list">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="controls">
+      <button id="theme-toggle" aria-label="Toggle dark mode">🌓</button>
+      <button id="hamburger" class="hamburger" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+</header>
+
+
+<main class="container">
+    <section class="projects">
+        <h1>Projects</h1>
+        <p class="lead">A few sample projects demonstrating responsive layout and interactivity.</p>
+
+        <div class="grid-3 projects-grid">
+            <!-- Project 1 -->
+        <article class="card project-card">
+            <img src="p1.png" alt="Project 1">
+            <div class="card-body">
+                <h3>Restaurant Website</h3>
+                <p>Responsive multi-section website built with HTML, CSS & JS.</p>
+                <p class="tags"><span class="tag">HTML</span> <span class="tag">CSS</span> <span class="tag">JS</span></p>
+                <p><a class="btn small" href="https://restaurant-website-palm-grill.vercel.app/" target="_blank" rel="noopener">View</a></p>
+            </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="card project-card">
+            <img src="p2.png" alt="Project 2">
+            <div class="card-body">
+                <h3>E-commerce Website</h3>
+                <p>A modern e-commerce website offering a seamless and responsive shopping experience</p>
+                <p class="tags"><span class="tag">JS</span> <span class="tag">Grid</span></p>
+                <p><a class="btn small" href="https://zaidofficial.github.io/Ecommerce-site/s" target="_blank" rel="noopener">View</a></p>
+            </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="card project-card">
+            <img src="p3.png" alt="Project 3">
+            <div class="card-body">
+                <h3>Portfolio Cards</h3>
+                <p>Modern portfolio cards with hover effects and responsive layout.</p>
+                <p class="tags"><span class="tag">CSS</span> <span class="tag">UI</span></p>
+                <p><a class="btn small" href="https://zaidofficial.github.io/Internship-task-12/" target="_blank" rel="noopener">View</a></p>
+            </div>
+        </article>
+    </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <p>© <span id="year3"></span> Muhammad Zaid</p>
+    </div>
+</footer>
+
+<button id="scroll-top" aria-label="Scroll to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
